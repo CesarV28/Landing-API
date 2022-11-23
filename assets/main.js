@@ -10,7 +10,7 @@ const div = document.createElement('div');
 div.classList += 'flex items-center justify-center';
 
 const loadingMsg = document.createElement('p');
-loadingMsg.className += 'block text-center text-3xl';
+loadingMsg.className += 'block text-indigo-900 text-center text-3xl';
 loadingMsg.textContent = 'Loading songs...';
 
 div.appendChild(loadingMsg);
