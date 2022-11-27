@@ -1,3 +1,5 @@
+import { API_KEY } from "../../env";
+
 const API = 'https://youtube-music1.p.rapidapi.com/v2/search?query=Autumn%20Kings'
 let songsData = [];
 let totalSongs = 0;
@@ -22,8 +24,8 @@ let limit = 4
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '43531c2af2msh6cf3a57cbc17048p1f2defjsn1158ffeee29b',
-		'X-RapidAPI-Host': 'youtube-music1.p.rapidapi.com'
+		'X-RapidAPI-Key': API_KEY,
+		'X-RapidAPI-Host': API_HOST 
 	}
 };
 
